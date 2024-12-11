@@ -1,5 +1,6 @@
 .navbar {
     overflow-x: hidden;
+    background-color: #002244;
   }
   
   .logo {
@@ -11,8 +12,7 @@
   .nav-link {
     text-decoration: none;
     font-family: 'Poppins';
-    background: black;
-    -webkit-background-clip: text;
+ 
     color: white;
     font-size: 3vh;
   }

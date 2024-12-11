@@ -1,25 +1,23 @@
+/* Footer styles */
 .footer {
-    background-color: #002244;
-    color: white;
-    font-size: 2.5vh;
-    font-family: 'Poppins';
-    width: 100%;
-    position: relative;
-    left: 0;
-    right: 0;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    padding: 0;
-    box-sizing: border-box; 
-  }
-  
-  .footer .container {
-    max-width: 100%;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
+  background-color: #002244;
+  color: white;
+  font-size: 2.5vh;
+  font-family: 'Poppins';
+  width: 100%;
+  position: fixed; /* Fix the footer to the bottom of the viewport */
+  bottom: 0; /* Position it at the very bottom */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0; /* Add some padding for spacing */
+  box-sizing: border-box;
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.footer .container {
+  max-width: 100%;
+}
