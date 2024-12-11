@@ -1,0 +1,23 @@
+.navbar {
+    overflow-x: hidden;
+  }
+  
+  .logo {
+    width: 10vh;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    background: black;
+    -webkit-background-clip: text;
+    color: white;
+    font-size: 3vh;
+  }
+  
+  .nav-link.hovered {
+    color: blue;
+  }
+  
